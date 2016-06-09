@@ -101,7 +101,7 @@ return users["Erik"][:favourite_numbers] << 7
 # 9. Change Erik's hometown to Edinburgh
 return users["Erik"][:home_town] = "Edinburgh"
 # 10. Add a pet dog to Erik called "Fluffy"
-return user["Erik"][:pets] << {dog: "Fluffy"}
+return users["Erik"][:pets] << {dog: "Fluffy"}
 # 11. Add yourself to the users hash
 users << {
   "Ashleigh" => {
