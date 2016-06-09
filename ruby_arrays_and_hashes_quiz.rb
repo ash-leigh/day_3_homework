@@ -103,7 +103,15 @@ return users["Erik"][:home_town] = "Edinburgh"
 # 10. Add a pet dog to Erik called "Fluffy"
 return user["Erik"][:pets] << {dog: "Fluffy"}
 # 11. Add yourself to the users hash
-return users
+users << {
+  "Ashleigh" => {
+    :twitter => "Don't have it",
+    :favourite_numbers => [3, 18],
+    :home_town => "Cowdenbeath",
+    :pets => {
+      "Max" => :dog,
+    }
+
 
 
   
